@@ -8,7 +8,7 @@ user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 y_positions = [-100, -60, -20, 20, 60, 100]
 all_turtles = []
-
+#creating new turtles
 for turtle_index in range(6):
     new_turtle = Turtle(shape="turtle")
     new_turtle.color(colors[turtle_index])
